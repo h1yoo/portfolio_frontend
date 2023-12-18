@@ -150,12 +150,12 @@ $(document).ready(function(){
             }
             if( st >= aboutTop && st < portTop ) {
                 //About에서 오른쪽 "skill" bar 애니메이션
-                $("#photo progress").delay(200).animate({value : 85});
-                $("#html progress").delay(300).animate({value : 80});
-                $("#jquery progress").delay(400).animate({value : 75});
-                $("#java progress").delay(500).animate({value : 70});
+                $("#photo progress").delay(200).animate({value : 80});
+                $("#html progress").delay(300).animate({value : 85});
+                $("#jquery progress").delay(400).animate({value : 50});
+                $("#java progress").delay(500).animate({value : 65});
                 $("#cpp progress").delay(600).animate({value : 50});
-                $("#oven progress").delay(700).animate({value : 60});
+                $("#oven progress").delay(700).animate({value : 55});
                 pos = 1;
             }
             if( st >= portTop ) {  
@@ -196,12 +196,12 @@ $(document).ready(function(){
             }
             if( st >= aboutTop && st < portTop ) {
                 //About에서 오른쪽 "skill" bar 애니메이션
-                $("#photo progress").delay(100).animate({value : 85});
-                $("#html progress").delay(200).animate({value : 80});
-                $("#jquery progress").delay(300).animate({value : 75});
-                $("#java progress").delay(400).animate({value : 70});
+                $("#photo progress").delay(100).animate({value : 80});
+                $("#html progress").delay(200).animate({value : 85});
+                $("#jquery progress").delay(300).animate({value : 50});
+                $("#java progress").delay(400).animate({value : 65});
                 $("#cpp progress").delay(500).animate({value : 50});
-                $("#oven progress").delay(600).animate({value : 60});
+                $("#oven progress").delay(600).animate({value : 55});
                 pos = 1;
             }
             if( st >= portTop ) {   
