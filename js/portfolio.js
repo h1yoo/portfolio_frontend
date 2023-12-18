@@ -142,7 +142,7 @@ $(document).ready(function(){
             if( st <= 50 ) {  //새가 날아가는 애니메이션 나타나게 하기
                 $("#top .bird-container").stop().fadeIn();
             }
-            if( st >= aboutTop/2 ) {  //새가 날아가는 애니메이션 사라지게 하기
+            if( st >= aboutTop ) {  //새가 날아가는 애니메이션 사라지게 하기
                 $("#top .bird-container").fadeOut();
             }
             if( st >= homeTop && st < aboutTop ) {
