@@ -46,15 +46,15 @@ nav p {
 }
 /*새가 날아가는 애니메이션*/
 .bird-container {
-    width:90px;
+    	width:90px;
 	position:fixed; left:0; top:100px;
 	animation: rightMove 15s infinite;
 }
 @keyframes rightMove {
-	0% 		{left:-7vw; top: 15vh;}
-    25%     {top: 22vh;}
-    50%     {top: 15vh;}
-    75%     {top: 10vh;}
+	0% 	{left:-7vw; top: 15vh;}
+    	25%     {top: 22vh;}
+	50%     {top: 15vh;}
+	75%     {top: 10vh;}
 	100% 	{left:100vw;}
 }
 .bird {
