@@ -222,7 +222,7 @@ $(document).ready(function(){
             //클릭한 썸네일이미지 주소를 가져온다
             const thumb = $(this).children("img").attr("src");
             //가져온 주소를 큰이미지주소로 변경한다.
-            const change = thumb.replace('images/', '../photoshop&illust/');
+            const change = thumb.replace('images/', 'images/big/');
             //변경한 이미지주소를 큰이미지에 대입한다.
             $("#popup img").attr("src", change);
 
