@@ -196,12 +196,12 @@ $(document).ready(function(){
             }
             if( st >= aboutTop && st < portTop ) {
                 //About에서 오른쪽 "skill" bar 애니메이션
-                $("#photo progress").delay(100).animate({value : 80});
-                $("#html progress").delay(200).animate({value : 85});
-                $("#jquery progress").delay(300).animate({value : 50});
+                $("#photo progress").delay(100).animate({value : 65});
+                $("#html progress").delay(200).animate({value : 95});
+                $("#jquery progress").delay(300).animate({value : 55});
                 $("#java progress").delay(400).animate({value : 70});
-                $("#cpp progress").delay(500).animate({value : 65});
-                $("#oven progress").delay(600).animate({value : 55});
+                $("#cpp progress").delay(500).animate({value : 80});
+                $("#oven progress").delay(600).animate({value : 60});
                 pos = 1;
             }
             if( st >= portTop ) {   
