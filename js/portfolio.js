@@ -199,8 +199,8 @@ $(document).ready(function(){
                 $("#photo progress").delay(100).animate({value : 80});
                 $("#html progress").delay(200).animate({value : 85});
                 $("#jquery progress").delay(300).animate({value : 50});
-                $("#java progress").delay(400).animate({value : 65});
-                $("#cpp progress").delay(500).animate({value : 50});
+                $("#java progress").delay(400).animate({value : 70});
+                $("#cpp progress").delay(500).animate({value : 65});
                 $("#oven progress").delay(600).animate({value : 55});
                 pos = 1;
             }
