@@ -4,7 +4,7 @@ $(document).ready(function(){
     if( $(window).width()<=600 ) {
         $("nav").addClass("act");
     }
-    else {  //휴대폰보다 큰 화면일 때는 스크롤 높이에 따라 베경색을 조절함
+    else {  //휴대폰보다 큰 화면일 때는 스크롤 높이에 따라 배경색을 조절함
         $(window).scroll(function(){
             //if( $(window).scrollTop() >= $("#top".height()+$("nav").height())  ) {
             if( $(window).scrollTop() >= $("#top").height()-100 ) {
